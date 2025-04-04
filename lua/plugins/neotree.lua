@@ -5,11 +5,8 @@ return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
-    -- {"3rd/image.nvim", opts = {}},
   },
   lazy = false, -- neo-tree will lazily load itself
-  ---@module "neo-tree"
-  ---@type neotree.Config?
   opts = {},
   config = function ()
     require("neo-tree").setup({
