@@ -1,17 +1,17 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
 vim.opt.number = true
 vim.opt.relativenumber = false
 
-vim.opt.mouse = "a"
+vim.opt.mouse = 'a'
 
 vim.opt.showmode = false
 
 -- Sync clipboard between OS and Neovim.
 vim.schedule(function()
-  vim.opt.clipboard = "unnamedplus"
+  vim.opt.clipboard = 'unnamedplus'
 end)
 
 vim.opt.breakindent = true
@@ -33,10 +33,10 @@ vim.opt.splitbelow = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
 vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
-vim.opt.inccommand = "split"
+vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
