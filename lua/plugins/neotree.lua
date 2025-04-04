@@ -18,7 +18,7 @@ return {
       },
     })
 
-    vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle<CR>")
-    vim.keymap.set("n", "<leader>ng", ":Neotree git_status toggle<CR>")
+    vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle<CR>", { silent = true })
+    vim.keymap.set("n", "<leader>ng", ":Neotree git_status toggle<CR>", { silent = true })
   end
 }
