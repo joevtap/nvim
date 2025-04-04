@@ -34,8 +34,8 @@ return {
 
     dashboard.section.buttons.val = {
       dashboard.button("e", "  > New File", ":ene<CR>"),
-      dashboard.button("SPC ff", "󰱼  > Find File", ":Telescope find_files<CR>"),
-      dashboard.button("SPC fs", "  > Find Word", ":Telescope live_grep<CR>"),
+      dashboard.button("SPC ff", "󰱼  > Find File"),
+      dashboard.button("SPC fg", "  > Find Word"),
       dashboard.button("q", "  > Quit NVIM", ":qa<CR>"),
     }
 
