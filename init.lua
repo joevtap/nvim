@@ -1,5 +1,5 @@
-require 'config.opts'
-require 'config.keymaps'
-require 'config.lazy'
+require("config.opts")
+require("config.keymaps")
+require("config.lazy")
 
-require('lazy').setup 'plugins'
+require("lazy").setup("plugins")
