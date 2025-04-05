@@ -18,3 +18,12 @@ vim.api.nvim_create_autocmd("TextYankPost", {
     vim.highlight.on_yank()
   end,
 })
+
+-- Working if buffers
+vim.keymap.set("n", "<leader>bp", ":bp<CR>", { desc = "Move to the [p]revious [b]uffer", silent = true })
+vim.keymap.set("n", "<leader>bn", ":bn<CR>", { desc = "Move to the [n]ext [b]uffer", silent = true })
+vim.keymap.set("n", "<leader>bd", ":bd<CR>", { desc = "[d]elete the current [b]uffer", silent = true })
+vim.keymap.set("n", "<leader>tb", ":Telescope buffers<CR>", { desc = "Open [t]elescope [b]uffers", silent = true })
+
+-- Exec lua
+vim.keymap.set("v", "<leader>x", ":lua<CR>")
