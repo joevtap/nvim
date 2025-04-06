@@ -8,6 +8,7 @@ return {
     bufferline.setup({
       options = {
         separator_style = "slant",
+        numbers = "buffer_id",
       },
     })
   end,
