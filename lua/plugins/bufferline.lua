@@ -7,7 +7,7 @@ return {
 
     bufferline.setup({
       options = {
-        style_preset = bufferline.style_preset.minimal,
+        separator_style = "slant",
       },
     })
   end,
