@@ -27,7 +27,7 @@ return {
       vim.keymap.set("n", "<leader>i", vim.lsp.buf.hover, { silent = true })
       vim.keymap.set({ "n", "i" }, "<C-Space>", "<C-x><C-o>", { silent = true })
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, { silent = true })
-      vim.keymap.set({ "n" }, "<leader>ca", vim.lsp.buf.code_action, { silent = true })
+      vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { silent = true })
     end,
   },
 }

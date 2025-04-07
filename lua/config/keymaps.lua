@@ -19,7 +19,5 @@ vim.api.nvim_create_autocmd("TextYankPost", {
   end,
 })
 
-vim.keymap.set("n", "<leader>b", ":Telescope buffers<CR>", { desc = "Open telescope [b]uffers", silent = true })
-
 -- Exec lua
 vim.keymap.set("v", "<leader>x", ":lua<CR>")
