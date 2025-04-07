@@ -3,7 +3,7 @@ return {
   config = function()
     local kanagawa = require("kanagawa")
 
-    kanagawa.setup({
+    --[[ kanagawa.setup({
       overrides = function(colors)
         local theme = colors.theme
 
@@ -36,7 +36,7 @@ return {
           TelescopePreviewBorder = { bg = theme.ui.bg_dim, fg = theme.ui.bg_dim },
         }
       end,
-    })
+    }) ]]
 
     kanagawa.load("dragon")
   end,
